@@ -1155,7 +1155,7 @@
             let i = 0
             let content = document.getElementById('contents')
             let timer = setInterval(() => {
-                if (str_.length < str.length-123) {
+                if (str_.length < str.length) {
                     str_ += str[i++]
                     content.innerHTML = '<p>' + str_ + '<span class="xx" style="opacity: 1;    color: red;">❤</span></p>'                        //打印时加光标
                 } else {
